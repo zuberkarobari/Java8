@@ -8,7 +8,6 @@ public class LambdaExample {
         rectangle.draw();
         square.draw();
     }
-
     public static void print(Shape shape){
         shape.draw();
     }
