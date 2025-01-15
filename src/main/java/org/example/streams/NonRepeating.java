@@ -22,7 +22,8 @@ public class NonRepeating {
     }
 
     static void getLetterOcurence(String str){
-        String result=str.toUpperCase().replaceAll(" ","");
+        String result=str.toUpperCase
+                ().replaceAll(" ","");
 
         result.chars().mapToObj(i->(char) i)
                 .collect(Collectors.groupingBy(Function.identity() , Collectors.counting()))
